@@ -1,0 +1,20 @@
+{
+  "params_total": 3714915,
+  "params_trainable": 3714915,
+  "model_bytes": 14859660,
+  "model_mb": 14.171276092529297,
+  "img_size": [
+    1,
+    3,
+    512,
+    512
+  ],
+  "device": "cuda",
+  "dtype": "torch.float32",
+  "test_samples": 10,
+  "avg_inference_s": 0.008038141799988806,
+  "median_inference_s": 0.007929201498882321,
+  "flops": 7877885952,
+  "model_name": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "collected_at": "2025-09-20T09:05:30.352582Z"
+}

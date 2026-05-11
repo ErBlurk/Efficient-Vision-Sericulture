@@ -1,0 +1,61 @@
+{ 
+  "nvidia/segformer-b0-finetuned-ade-512-512": {
+    "params_total": null,
+    "params_trainable": null,
+    "model_bytes": 4327180,
+    "model_mb": 4.126720428466797,
+    "img_size": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "device": "cpu (onnxruntime)",
+    "dtype": "onnx-int8",
+    "model_name": "nvidia/segformer-b0-finetuned-ade-512-512",
+    "test_samples": 10,
+    "avg_inference_s": 0.14922418080013813,
+    "median_inference_s": 0.15019290350028314,
+    "flops": 7877885952,
+    "collected_at": "2025-09-25T08:04:21.804702Z"
+  },
+  "nvidia/segformer-b4-finetuned-ade-512-512": {
+    "params_total": 63995331,
+    "params_trainable": 63995331,
+    "model_bytes": 255981324,
+    "model_mb": 244.1228141784668,
+    "img_size": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "device": "cuda",
+    "dtype": "torch.float32",
+    "test_samples": 10,
+    "avg_inference_s": 0.15251157709972177,
+    "median_inference_s": 0.029060816499622888,
+    "flops": 94143021056,
+    "model_name": "nvidia/segformer-b4-finetuned-ade-512-512",
+    "collected_at": "2025-09-20T09:39:30.704749Z"
+  }, 
+  "UNet-8Ch": {
+    "params_total": 489963,
+    "params_trainable": 489963,
+    "model_bytes": 1959852,
+    "model_mb": 1.8690605163574219,
+    "img_size": [
+      1,
+      3,
+      512,
+      512
+    ],
+    "device": "cuda",
+    "dtype": "torch.float32",
+    "test_samples": 10,
+    "avg_inference_s": 0.002665638699909323,
+    "median_inference_s": 0.002641296999172482,
+    "flops": 3106999661,
+    "model_name": "UNet-8Ch"
+  }
+}

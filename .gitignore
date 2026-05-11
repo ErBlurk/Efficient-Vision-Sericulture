@@ -1,0 +1,12 @@
+0_Setup/manual_annotations/*
+
+data/heuristics/preprocessed/*
+data/heuristics/semantic_seg/*
+data/images/*
+data/test/*
+ 
+data/SegFormer_B0/best_model.pth
+data/SegFormer_B4/best_model.pth
+data/UNet-8Ch/best_model.pth 
+
+ 

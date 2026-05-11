@@ -1,0 +1,19 @@
+{
+  "params_total": 489963,
+  "params_trainable": 489963,
+  "model_bytes": 1959852,
+  "model_mb": 1.8690605163574219,
+  "img_size": [
+    1,
+    3,
+    512,
+    512
+  ],
+  "device": "cuda",
+  "dtype": "torch.float32",
+  "test_samples": 10,
+  "avg_inference_s": 0.002665638699909323,
+  "median_inference_s": 0.002641296999172482,
+  "flops": 3106999661,
+  "model_name": "UNet-8Ch"
+}

@@ -1,0 +1,7 @@
+name: silkworm
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+prefix: /home/leo/anaconda3/envs/silkworm
